@@ -1,0 +1,31 @@
+<!DOCTYPE=html>
+<head>
+	<title>Double Feature</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+</head>
+<body>
+
+<p id="printout"></p>
+
+
+
+	<script type="text/javascript">
+		function process()
+		{
+			var url="https://www.tastekid.com/api/similar?q=" + document.getElementById("search").value + "&limit=1&k=216224-DoubleFe-Q89U15WR";
+
+
+
+			location.href=url;
+		return false;
+		}
+</script>
+
+<form onSubmit="return process();">
+film name: <input type="text" name="search" id="search"> <input type="submit" value="go">
+</form>
+
+
+
+</body>
+</html>

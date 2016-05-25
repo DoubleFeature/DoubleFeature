@@ -2,5 +2,16 @@ extends layout
 
 block content
   h1= title
-  p Welcome to #{title}
-  p Hang tight, DoubleFeature is being set up. We will be live as soon as possible!
+  p search for a movie you like, and get a similar movie to watch next.
+  include search.html
+
+  p
+  span.
+   check the source code out on 
+  a(href="http://github.com/doublefeature/doublefeature") github
+  span.
+  p
+  span.
+   by 
+  a(href="http://github.com/tehp") Mackenzie Craig
+  span.
