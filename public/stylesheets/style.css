@@ -1,3 +1,10 @@
+/* DoubleFeature specific CSS */
+body {
+	font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+	padding: 50px;
+}
+
+
 /*
 * Skeleton V2.0.4
 * Copyright 2014, Dave Gamache
@@ -120,13 +127,15 @@ html is set to 62.5% so that all the REM measurements throughout Skeleton
 are based on 10px sizing. So basically 1.5rem = 15px :) */
 html {
   font-size: 62.5%; }
+
+/* Currently commented due to DoubleFeature specific CSS conflicts
 body {
-  font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
+  font-size: 1.5em; 
   line-height: 1.6;
   font-weight: 400;
   font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #222; }
-
+*/
 
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
