@@ -12,3 +12,6 @@ node_js:
   - "0.8"
   - "0.6"
   - "iojs"
+
+  notifications:
+  slack: ptposse:Iu6cZeEnVGgpyLcUP7QLe6XV
